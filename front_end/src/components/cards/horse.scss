@@ -22,6 +22,38 @@
                 border-radius: 5px;
             }
         }
+        .jockey-details{
+            position: absolute;
+            left: 0;
+            top: 80px;
+            padding: 15px;
+
+            .bet {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px;
+                .money {
+                    border: 1px solid black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px;
+                    border-radius: 5px;
+                    .money-icon{
+                        margin-left: 5px;
+                    }
+                }
+
+                button {
+                    width: 80px;
+                    font-weight: bolder;
+                    padding: 2px;
+                    border-radius: 5px;
+                    margin-left: 5px;
+                }
+            }
+        
+    }
 
         .details {
             position: absolute;
@@ -57,6 +89,7 @@
 
         .jockey {
             left: 24%;
+            bottom: 75%;
         }
     }
 }

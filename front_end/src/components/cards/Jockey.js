@@ -15,7 +15,7 @@ const Jockey = () => {
                 <img src="https://images.unsplash.com/photo-1598974357801-cbca100e65d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80" alt="Not found" />
                 <h2>{card.rname}</h2>
               </div>
-              <div className="details">
+              <div className="jockey-details">
                 <p>Height: <span>{card.height}</span> <br />
                   Weight: <span>{card.weight}</span> <br />
                   Riding Style: <span>{card.style}</span> <br />

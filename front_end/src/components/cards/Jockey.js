@@ -1,5 +1,4 @@
 import React from 'react'
-import './jockey.scss'
 
 const Jockey = () => {
   return (

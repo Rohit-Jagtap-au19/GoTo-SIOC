@@ -1,6 +1,6 @@
 import React from 'react'
-import Horse from '../cards/horse/Horse'
-import Jockey from '../cards/jockey/Jockey'
+import Horse from '../cards/Horse'
+import Jockey from '../cards/Jockey'
 
 const Home = () => {
   return (

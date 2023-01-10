@@ -49,41 +49,45 @@ export const jockey = [
         rname:'kamiya',
         height:'1.5m',
         weight : '70kg',
+        style:'stalkers',
         race : '10',
         won : '7',
         position: '3rd',
         horse: 'dakota',
-        money:"20"
+        money:"21"
     },
     {
         rname:'miya',
         height:'1.3m',
         weight : '60kg',
+        style:'stalkers',
         race : '10',
         won : '8',
         position: '4rd',
         horse: 'kota',
-        money:"20"
+        money:"22"
     },
     {
         rname:'diya',
         height:'1.5m',
         weight : '60kg',
+        style:'stalkers',
         race : '10',
         won : '7',
         position: '2rd',
         horse: 'dako',
-        money:"20"
+        money:"23"
     },
     {
         rname:'siya',
         height:'1.5m',
         weight : '60kg',
+        style:'stalkers',
         race : '10',
         won : '7',
         position: '3rd',
         horse: 'data',
-        money:"20"
+        money:"24"
     },
 
 ]

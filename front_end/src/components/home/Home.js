@@ -6,10 +6,10 @@ import Jockey from '../cards/Jockey'
 const Home = () => {
   return (
     <div className='cards'>
-    <h1>Create Team</h1>
-    <h1>Choose Horse to Race</h1>
+    <h1 style={{background:'white'}}>Create Team</h1>
+    <h1 style={{background:'white'}}>Choose Horse to Race</h1>
       <Horse/>
-    <h1>Choose Jockey to Race</h1>
+    <h1 style={{background:'white'}}>Choose Jockey to Race</h1>
       <Jockey/>
       <button>Continue</button>
     </div>

@@ -1,9 +1,8 @@
 .horse_card {
     display: flex;
     justify-content: center;
-
     .card-container {
-        background-color: yellow;
+        background-color: hsla(60, 100%, 50%, 0.673);
         width: 200px;
         height: 300px;
         border-radius: 10px;
@@ -41,6 +40,7 @@
                     border-radius: 5px;
                     .money-icon{
                         margin-left: 5px;
+                        color: yellow;
                     }
                 }
 
@@ -73,7 +73,8 @@
                     padding: 5px;
                     border-radius: 5px;
                     .money-icon{
-                        margin-left: 5px;
+                        margin-left:5px;
+                        color: yellow;
                     }
                 }
 

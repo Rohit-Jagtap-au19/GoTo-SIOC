@@ -1,5 +1,7 @@
 import React from 'react'
+
 import { jockey } from '../data.js'
+
 import {BiRupee} from 'react-icons/bi'
 import {GiTwoCoins} from 'react-icons/gi'
 
@@ -25,8 +27,7 @@ const Jockey = () => {
                   most favorable jockey & style : <span>{card.horse}</span>
                 </p>
                 <div className="bet">
-                <span className='money'> <GiTwoCoins className='money-icon'/> <BiRupee className='money-icon'/>{card.money}</span>
-                  {/* <input type="number" min={card.money} max='40' placeholder={card.money} /> */}
+                <span className='money'> <GiTwoCoins className='money-icon'/> <BiRupee className='money-icon'style={{color:'black'}}/>{card.money}</span>
                   <button>Select</button>
                 </div>
               </div>

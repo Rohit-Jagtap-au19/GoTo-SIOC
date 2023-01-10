@@ -1,0 +1,35 @@
+.card-container{
+    background-color: yellow;
+    width:200px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    .img-container{
+        text-align: center;
+        margin-top: 100px;
+        img{
+            width: 100px;
+            height: 100px;
+            margin-top: -50px;
+            border-radius: 5px;
+        }
+    }
+    .details{
+        padding: 10px;
+        .bet{
+            input{
+                width: 80px;
+                margin: 10px;
+                padding: 0 22px;
+                border-radius: 5px;
+                outline: none;
+            }
+            button{
+                width: 60px;
+                font-weight: bolder;
+                padding: 2px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
